@@ -1,3 +1,3 @@
 name: {es: Slack, en: Slack}
-icon: workflow
+icon: /extensions/slack/panel/icon.png
 url: /extensions/slack/panel/index.html
