@@ -1,0 +1,8 @@
+version: "0.5"
+processes:
+  ext-slack:
+    command: framework/scripts/run-ext.sh slack -- bash -c 'bash extensions/slack/install.sh && exec bash extensions/slack/runtime.sh bridge.cjs'
+    log_location: .data/logs/ext-slack.log
+    availability:
+      restart: on_failure
+      backoff_seconds: 10

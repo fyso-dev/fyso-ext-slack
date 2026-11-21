@@ -1,0 +1,10 @@
+title: {es: Conectar Slack, en: Connect Slack}
+description:
+  es: >-
+    Creá la aplicación con el manifiesto de la extensión, instalala en tu espacio de trabajo y copiá el
+    Bot User OAuth Token. En Basic Information, generá un App-Level Token con connections:write.
+    Guardá ambos tokens, invitá la aplicación a un canal y abrí Slack en el panel.
+  en: >-
+    Create the app from the extension manifest, install it in your workspace and copy the
+    Bot User OAuth Token. In Basic Information, generate an App-Level Token with connections:write.
+    Save both tokens, invite the app to a channel and open Slack in the panel.

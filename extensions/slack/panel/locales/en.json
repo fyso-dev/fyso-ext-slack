@@ -1,0 +1,83 @@
+{
+  "slack": {
+    "title": "Slack",
+    "refresh": "Check again",
+    "loading": "Checking Slack…",
+    "saved": "Channel saved.",
+    "removed": "Channel removed.",
+    "bot": {
+      "token": "Bot User OAuth Token (xoxb-)",
+      "title": "Slack app",
+      "tokenMissing": "Create the app from the manifest, install it in the workspace and paste both tokens.",
+      "tokenInvalid": "Slack rejected the bot token. Check the installation and paste both tokens again.",
+      "openSetup": "Save tokens",
+      "openPortal": "Open Slack API",
+      "connected": "Connected as {{name}}.",
+      "connecting": "The bot is connecting. Check again in a few seconds.",
+      "inviteHelp": "Invite the app to a channel in Slack, then check again.",
+      "appToken": "App-Level Token (xapp-)",
+      "manifest": "App manifest",
+      "changeTokens": "Change tokens"
+    },
+    "channels": {
+      "outbound": "Enabled for posting.",
+      "title": "Channels",
+      "help": "Choose a channel for posting. Assign an agent to enable conversations in threads.",
+      "needsBot": "Connect the bot first.",
+      "empty": "No channels yet.",
+      "noVisible": "Invite the Slack app to the channel.",
+      "add": "Add channel",
+      "edit": "Change",
+      "remove": "Remove",
+      "confirmRemove": "Stop answering in this channel?",
+      "ok": "Working",
+      "attention": "Check",
+      "summary": "{{agent}} answers {{when}}.",
+      "onMention": "when mentioned",
+      "onEvery": "every new message",
+      "openInSlack": "Open in Slack"
+    },
+    "form": {
+      "channel": "Channel",
+      "agent": "Agent",
+      "chooseChannel": "Choose a channel",
+      "chooseAgent": "Send only (no agent)",
+      "when": "When does it answer?",
+      "onMention": "When someone mentions the bot (@)",
+      "onEvery": "Every new message in the channel",
+      "noFreeChannels": "Every channel the bot can see already has an agent.",
+      "save": "Save",
+      "cancel": "Cancel",
+      "instructions": "Instructions for this channel (optional)",
+      "instructionsExample": "E.g.: This is the customer support channel. Answer formally and send billing questions to #admin.",
+      "instructionsHelp": "The agent gets them when each new thread starts. Changes apply to new threads.",
+      "sender": "Reply as",
+      "senderApp": "Slack app",
+      "senderAgent": "Fyso agent name"
+    },
+    "problems": {
+      "noAccess": "Invite the Slack app to the channel.",
+      "unknownAgent": "This agent no longer exists in the project. Choose another one.",
+      "permissions": "In this channel the bot is missing: {{permissions}}. Grant it in Slack (Edit channel → Permissions)."
+    },
+    "states": {
+      "connected": "Connected",
+      "connecting": "Connecting",
+      "offline": "Disconnected",
+      "token_missing": "No token"
+    },
+    "errors": {
+      "unreachable": "Slack could not be reached. Check again.",
+      "rate_limited": "Slack asked us to wait. Try again in a few seconds.",
+      "missing_access": "The bot cannot access this channel.",
+      "missing_channel": "The channel no longer exists in Slack.",
+      "unsupported_channel": "Choose a text or announcement channel.",
+      "invalid_input": "Choose a channel and an agent.",
+      "assignment_changed": "Someone changed this channel meanwhile. Check again and retry.",
+      "unknown_agent": "That agent no longer exists in the project.",
+      "invalid_config": "project/slack.yaml has an error. Fix it to edit channels here.",
+      "operation_failed": "That did not work. Check again.",
+      "missing_scope": "Reinstall the app with the manifest permissions."
+    }
+  }
+}

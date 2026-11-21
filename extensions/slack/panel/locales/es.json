@@ -1,0 +1,83 @@
+{
+  "slack": {
+    "title": "Slack",
+    "refresh": "Volver a comprobar",
+    "loading": "Comprobando Slack…",
+    "saved": "Canal guardado.",
+    "removed": "Canal quitado.",
+    "bot": {
+      "token": "Bot User OAuth Token (xoxb-)",
+      "title": "Aplicación de Slack",
+      "tokenMissing": "Creá la aplicación con el manifiesto, instalala en el espacio de trabajo y pegá los dos tokens.",
+      "tokenInvalid": "Slack rechazó el token del bot. Revisá la instalación y volvé a pegar los dos tokens.",
+      "openSetup": "Guardar tokens",
+      "openPortal": "Abrir Slack API",
+      "connected": "Conectado como {{name}}.",
+      "connecting": "El bot se está conectando. Volvé a comprobar en unos segundos.",
+      "inviteHelp": "Invitá la aplicación a un canal de Slack y volvé a comprobar.",
+      "appToken": "App-Level Token (xapp-)",
+      "manifest": "Manifiesto",
+      "changeTokens": "Cambiar tokens"
+    },
+    "channels": {
+      "outbound": "Habilitado para publicar.",
+      "title": "Canales",
+      "help": "Elegí un canal para publicar. Para conversar en hilos, asignale un agente.",
+      "needsBot": "Primero conectá el bot.",
+      "empty": "Todavía no hay canales.",
+      "noVisible": "Invitá la aplicación de Slack al canal.",
+      "add": "Agregar canal",
+      "edit": "Cambiar",
+      "remove": "Quitar",
+      "confirmRemove": "¿Dejar de responder en este canal?",
+      "ok": "Funcionando",
+      "attention": "Revisar",
+      "summary": "Responde {{agent}} {{when}}.",
+      "onMention": "cuando lo mencionan",
+      "onEvery": "a cada mensaje nuevo",
+      "openInSlack": "Abrir en Slack"
+    },
+    "form": {
+      "channel": "Canal",
+      "agent": "Agente",
+      "chooseChannel": "Elegí un canal",
+      "chooseAgent": "Solo publicar (sin agente)",
+      "when": "¿Cuándo responde?",
+      "onMention": "Cuando alguien menciona al bot (@)",
+      "onEvery": "A cada mensaje nuevo del canal",
+      "noFreeChannels": "Todos los canales que ve el bot ya tienen un agente.",
+      "save": "Guardar",
+      "cancel": "Cancelar",
+      "instructions": "Instrucciones para este canal (opcional)",
+      "instructionsExample": "Ej.: Es el canal de soporte a clientes. Respondé con tono formal y derivá facturación a #admin.",
+      "instructionsHelp": "El agente las recibe al empezar cada hilo nuevo. Si las cambiás, valen para los hilos nuevos.",
+      "sender": "Responder como",
+      "senderApp": "Aplicación de Slack",
+      "senderAgent": "Nombre del agente Fyso"
+    },
+    "problems": {
+      "noAccess": "Invitá la aplicación de Slack al canal.",
+      "unknownAgent": "Este agente ya no existe en el proyecto. Elegí otro.",
+      "permissions": "Al bot le falta en este canal: {{permissions}}. Concedelo en Slack (Editar canal → Permisos)."
+    },
+    "states": {
+      "connected": "Conectado",
+      "connecting": "Conectando",
+      "offline": "Desconectado",
+      "token_missing": "Sin token"
+    },
+    "errors": {
+      "unreachable": "No se pudo consultar Slack. Volvé a comprobar.",
+      "rate_limited": "Slack pidió que esperemos. Probá de nuevo en unos segundos.",
+      "missing_access": "El bot no puede acceder a este canal.",
+      "missing_channel": "El canal ya no existe en Slack.",
+      "unsupported_channel": "Elegí un canal de texto o de anuncios.",
+      "invalid_input": "Elegí un canal y un agente.",
+      "assignment_changed": "Alguien cambió este canal mientras tanto. Volvé a comprobar y probá de nuevo.",
+      "unknown_agent": "Ese agente ya no existe en el proyecto.",
+      "invalid_config": "El archivo project/slack.yaml tiene un error. Corregilo para poder editar los canales desde acá.",
+      "operation_failed": "No se pudo completar. Volvé a comprobar.",
+      "missing_scope": "Reinstalá la aplicación con los permisos del manifiesto."
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "fyso-ext-slack-runtime",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@slack/socket-mode": "3.2.0",
+    "@slack/web-api": "8.5.0",
+    "yaml": "2.9.0"
+  }
+}

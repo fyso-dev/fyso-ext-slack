@@ -1,0 +1,11 @@
+[tasks."slack:check"]
+description = "Check Slack token and channel configuration"
+run = "framework/scripts/run-ext.sh slack -- bash extensions/slack/doctor.sh"
+
+[tasks."slack:add"]
+description = "Enable a Slack channel: slack:add <channel-id> <bot-id>"
+run = "bash extensions/slack/runtime.sh tools.cjs add"
+
+[tasks."slack:send"]
+description = "Post a new message to a configured Slack channel"
+run = "framework/scripts/run-ext.sh slack -- bash extensions/slack/runtime.sh tools.cjs send"

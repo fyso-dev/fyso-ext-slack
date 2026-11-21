@@ -1,0 +1,11 @@
+description: Inspect Slack or manage a channel assignment
+type: graph
+params:
+  - REQUEST_B64: ""
+working_dir: ${FYSO_ROOT}
+steps:
+  - id: slack
+    env:
+      - SLACK_REQUEST_B64: ${params.REQUEST_B64}
+    command: bash extensions/slack/panel-action.sh
+    output: RESULT

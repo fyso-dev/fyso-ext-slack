@@ -1,0 +1,24 @@
+display_information:
+  name: Fyso
+features:
+  bot_user:
+    display_name: Fyso
+    always_online: false
+oauth_config:
+  scopes:
+    bot:
+      - channels:read
+      - channels:history
+      - groups:read
+      - groups:history
+      - chat:write
+      - chat:write.customize
+      - files:read
+      - users:read
+settings:
+  socket_mode_enabled: true
+  org_deploy_enabled: false
+  event_subscriptions:
+    bot_events:
+      - message.channels
+      - message.groups

@@ -1,0 +1,7 @@
+language: es
+channels:
+  - channel: "C0123456789"
+    bot: support
+    mentionRequired: true
+    senderMode: app
+    instructions: Customer support channel. Answer formally.

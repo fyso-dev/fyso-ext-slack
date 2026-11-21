@@ -1,0 +1,23 @@
+.slack-page { max-width: 56rem; margin: auto; padding: 1.5rem; display: grid; gap: 1rem; }
+.slack-page h1, .slack-page h2, .slack-page p { margin: 0; }
+.slack-page h1 { font-size: 1.75rem; }
+.slack-page h2 { font-size: 1.125rem; }
+.slack-page .card { padding: 1rem; }
+.slack-stack { display: grid; gap: .75rem; }
+.slack-row { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; }
+.slack-between { justify-content: space-between; }
+.slack-fields { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: .75rem; }
+.slack-fields label { display: grid; min-width: 0; gap: .35rem; }
+.slack-fields select { width: 100%; }
+.slack-list { list-style: none; margin: 0; padding: 0; }
+.slack-list li { padding: .75rem 0; border-top: 1px solid var(--fy-line); overflow-wrap: anywhere; }
+.slack-page select { padding: .45rem; background: var(--fy-surface-2); color: inherit; border: 1px solid var(--fy-line); border-radius: .4rem; }
+@media (max-width: 560px) {
+  .slack-page { padding: .75rem; }
+  .slack-fields { grid-template-columns: 1fr; }
+}
+.slack-choice { border: 0; margin: 0; padding: 0; gap: .4rem; }
+.slack-choice legend { padding: 0; margin-bottom: .35rem; }
+.slack-editor { padding: .75rem; border: 1px solid var(--fy-line); border-radius: .5rem; background: var(--fy-surface-2); }
+.slack-instructions textarea { width: 100%; padding: .45rem; background: var(--fy-surface); color: inherit; border: 1px solid var(--fy-line); border-radius: .4rem; font: inherit; resize: vertical; }
+.slack-quote { border-left: 3px solid var(--fy-line); padding-left: .6rem; white-space: pre-wrap; }
